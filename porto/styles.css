@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.skill {
+    margin: 15px 0;
+}
+
+.progress {
+    background-color: #e0e0e0; /* Warna latar belakang progress bar */
+    border-radius: 5px;
+    overflow: hidden; /* Memastikan isi tidak melampaui batas */
+}
+
+.progress-bar {
+    background-color: #4CAF50; /* Warna progress bar */
+    color: white; /* Warna teks di dalam progress bar */
+    text-align: center; /* Teks di tengah */
+    padding: 5px 0; /* Ruang di atas dan bawah teks */
+    transition: width 0.4s ease; /* Animasi saat lebar berubah */
+    border-radius: 5px; /* Sudut melengkung */
+}
+
+nav a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #508AC3;
+}
